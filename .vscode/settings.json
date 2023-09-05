@@ -1,5 +1,0 @@
-{
-    "yaml.schemas": {
-        "kubernetes://schema/v1%40service": "file:///c%3A/Users/zette/Documents/GitHub/Multicloud_bootcamp/cloud_warmup/live4-kubernetes-cloud/tcb-vote-en/tcb-vote/tcb-vote-plus-redis-v2.yaml"
-    }
-}
