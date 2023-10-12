@@ -1,0 +1,17 @@
+# Ansible playbook used to install the software stack required by Magento (open source e-commerce) fully automated.
+# Reference: https://github.com/CajuCLC/ansible-magento2
+
+---
+
+- name: Install Apache, PHP + Magento and/or Varnish
+  hosts: magento
+  user: ec2-user
+
+  roles:
+    - common
+    - httpd
+    - php
+    - composer
+    - mysql
+    - redis
+    - magento
